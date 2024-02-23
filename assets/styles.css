@@ -1,0 +1,99 @@
+
+/* Task 1 css ... */
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+/* body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fbce74;
+    width: 100vw;
+    height: 100vh;
+} */
+  
+button {
+    background: #fbca1f;
+    font-family: inherit;
+    padding: 0.2em 1.3em;
+    font-weight: 900;
+    font-size: 18px;
+    border: 3px solid black;
+    border-radius: 0.4em;
+    box-shadow: 0.1em 0.1em;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+button:hover {
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.15em 0.15em;
+  }
+  
+button:active {
+    transform: translate(0.05em, 0.05em);
+    box-shadow: 0.05em 0.05em;
+  } 
+
+body .parent
+{
+    border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 12px;
+    gap: 10px;
+    width: 300px;
+    height: 300px;
+}
+
+body .img-child img
+{
+    width: 200px;
+    margin-top: 20px;
+    border-radius: 12px;
+}
+
+
+/* Task 2 css ... */
+/* body
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fbce74;
+    width: 100vw;
+    height: 100vh;
+    gap: 200px;
+}
+
+body .parent-div
+{
+  display: flex;
+  gap: 20px;
+  padding-top: 50px;
+}
+
+body input{
+  border: none;
+  width: 400px;
+  height: 36px;
+  border-radius: 12px;
+  padding-left: 20px;
+  background-color: #F5F5F5;
+  font-size: 18px;
+}
+
+body p
+{
+  font-size: 20px;
+  font-weight: 700;
+  color: brown;
+}
+   */
